@@ -22,7 +22,7 @@
             
             console.log(`Response recorded: ${response} -> ${message}`);
             const encoded = encodeURIComponent(message);
-            const waUrl = `https://api.whatsapp.com/send?text=${encoded}`;
+            const waUrl = `https://api.whatsapp.com/send?phone=94768967587&text=${encoded}`;
             window.open(waUrl, '_blank');
         }
 
